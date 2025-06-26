@@ -20,4 +20,6 @@ How It Works
 Engineer submits a Google Form with form fields and image uploads.
 Apps Script is triggered → formats links → makes images public → sends payload to Flask API.
 Flask backend downloads images, converts formats, embeds data into a PDF.
-PDF is sent to the recipient’s email address automatically.
+PDF is sent to the recipient’s email address (field in form) automatically.
+
+Form Link: https://docs.google.com/forms/d/e/1FAIpQLSeaZaiusgW0Hj3IPJKOJYyNe6B-mS-RxwC18hP11nBNv9sT3A/viewform?usp=dialog
